@@ -5,8 +5,24 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
+    <div>
+      <webapp-footer/>
+    </div>
   </div>
 </template>
+
+<script>
+import footer from './components/Footer.vue'
+
+export default {
+  name: 'App',
+  components: {
+    'webapp-footer':footer,
+  }
+}
+
+</script>
+
 
 <style>
 #app {
@@ -15,6 +31,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background: green;
 }
 
 #nav {
