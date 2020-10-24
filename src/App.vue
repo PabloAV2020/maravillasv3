@@ -5,13 +5,6 @@
     background="#fff"
     link-color="#777"
     />
-    <div id="nav">
-      <router-link to="/">Inicio</router-link> |
-      <router-link to="/about">Acerca de</router-link>
-      <router-link to="/services">Servicios</router-link>
-      <router-link to="/gallery">Galería</router-link>
-      <router-link to="/contact">Contacto</router-link>
-    </div>
     <router-view/>
     <div>
       <webapp-footer/>
