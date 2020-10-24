@@ -1,9 +1,6 @@
 <template>
 	<nav :style="{ background: background || '#333' }">
 		<ul :style="{ background: background || '#333' }" ref="nav">
-			<figure class="image-logo" @click="toggleNav">
-				<img :src="imagePath" height="40px" width="40px" />
-			</figure>
 			<li
 				v-for="(link, index) in navLinks"
 				:key="index"
