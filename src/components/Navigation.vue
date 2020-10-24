@@ -1,18 +1,14 @@
 <template>
-	<nav :style="{ background: background || '#333' }">
-		<ul :style="{ background: background || '#333' }" ref="nav">
+	<nav>
+		<ul class="menu">
 			<li
 				v-for="(link, index) in navLinks"
 				:key="index"
-				@mouseenter="$event.currentTarget.style.background = hoverBackground || '#999'"
-				@mouseleave="$event.currentTarget.style.background = background || '#333'"
 			>
 				<router-link
 					:to="link.path"
-					:style="{ color: linkColor || '#DDD' }"
 				>
 					{{ link.text }}
-					<i :class="link.icon" />
 				</router-link>
 			</li>
 		</ul>
@@ -21,19 +17,19 @@
 
 <script>
 export default {
-	props: ['navLinks', 'background', 'linkColor', 'hoverBackground', 'imagePath'],
-	methods: {
-		toggleNav () {
-			const nav = this.$refs.nav.classList
-			nav.contains('active') ? nav.remove('active') : nav.add('active')
-		}
-	}
+	props: ['navLinks'],
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+  height: 60px;
+}
 
 
 </style>

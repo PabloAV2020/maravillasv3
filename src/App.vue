@@ -2,8 +2,8 @@
   <div id="app">
     <Navigation
     :nav-links="navLinks"
-    background="#fff"
-    link-color="#777"
+    background="#1C401D"
+    link-color="#F5F5F5"
     />
     <router-view/>
     <div>
