@@ -38,25 +38,27 @@ export default {
   font-weight: bold;
   cursor: pointer;
   padding: 10px;
-  border-bottom: 2px solid #080808;
   width: fit-content;
   list-style-type: none;
   
 }
 
-.menu-text:hover {
-  border-bottom: 2px solid white;
-}
-
-
 .link {
   color: white;
   text-decoration: none;  
+  border-bottom: 2px solid black;
+  padding:10px;  
+
+}
+
+.link:hover {
+border-bottom: 2px solid white;
 
 }
 
 .router-link-exact-active {
-  color:aqua;
+ 
+  border-bottom: 2px solid white;
 
 
 } 
