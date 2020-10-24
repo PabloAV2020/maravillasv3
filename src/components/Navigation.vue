@@ -55,4 +55,11 @@ export default {
 
 }
 
+.router-link-exact-active {
+  color:aqua;
+
+
+} 
+
+
 </style>

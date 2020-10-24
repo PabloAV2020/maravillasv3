@@ -39,7 +39,7 @@ export default {
 <style scoped>
 
 .responsive img{
-  margin-top: 55px;
+  margin-top: 5px;
   width: 100%;
   height: auto;
   border: 2px solid black;
