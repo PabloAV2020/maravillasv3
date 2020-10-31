@@ -1,6 +1,10 @@
 <template>
 	<nav>
+
 		<ul class="menu">
+      <div class="campinglogo">
+       <img src="/Users/pabloav/VueSites/website-v3/src/assets/svg/campingwhite.svg" alt="Logo" >
+      </div>
 			<li class="menu-text"
 				v-for="(link, index) in navLinks"
 				:key="index"
