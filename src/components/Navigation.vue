@@ -3,7 +3,7 @@
 
 		<ul class="menu">
       <div class="campinglogo">
-       <img src="/Users/pabloav/VueSites/website-v3/src/assets/svg/campingwhite.svg" alt="Logo" >
+       <img src="../assets/svg/campingwhite.svg" alt="Logo" height="80" width="80" >
       </div>
 			<li class="menu-text"
 				v-for="(link, index) in navLinks"
@@ -32,14 +32,21 @@ export default {
   align-items: center;
   justify-content: space-around;
   background:#1a4221;
-  padding-bottom: 15px;
+  padding-bottom: 1px;
+
+}
+
+.campinglogo{
+
+  margin-top:10px;
+
 
 }
 
 .menu-text{
-  margin-top:15px;
-  margin-bottom:15;
-  font-size: 18px;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size: 16px;
   color: white;
   font-weight: bold;
   cursor: pointer;
