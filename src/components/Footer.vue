@@ -26,9 +26,8 @@
                 </div>
         </div>
         <div class="bottom">
-        <p> © Todos los derechos reservados  - Las Maravillas Secret Lodge - 2020 </p>
-        <a href="https://www.facebook.com/maravillas.secretlodge">Visitanos en Facebook</a>
-        <br>
+            <p> © Todos los derechos reservados  - Las Maravillas Secret Lodge - 2020 </p>
+            <br>
         </div>
     </footer>  
 </template>
@@ -63,8 +62,8 @@ export default {
 
 
 .bottom p{
-    color: white;
-    font-size: 9pt;
+    color:#dd9f0d;
+    font-size: 14px;
     font-weight: bolder;
 }
 
