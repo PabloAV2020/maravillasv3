@@ -27,12 +27,14 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-top: 10px;
-  height: 60px;
+  background:#1a4221;
+  padding-bottom: 15px;
+
 }
 
 .menu-text{
   margin-top:15px;
+  margin-bottom:15;
   font-size: 18px;
   color: white;
   font-weight: bold;

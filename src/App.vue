@@ -2,8 +2,6 @@
   <div id="app">
     <Navigation
     :nav-links="navLinks"
-    background="#1C401D"
-    link-color="#F5F5F5"
     />
     <router-view/>
     <div>
@@ -58,7 +56,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background: green;
+  background:white;
 }
 
 </style>
