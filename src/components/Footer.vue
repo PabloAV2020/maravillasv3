@@ -9,10 +9,20 @@
                 </div>
                 <div>
                     <h1>  CONÓCENOS  </h1>
-
                 </div>
                 <div>
                     <h1> SÍGUENOS </h1>
+                    <a href="https://www.facebook.com/maravillas.secretlodge/" target="_blank">
+                        <div class="facebook">
+                                <img src="../assets/svg/fb.svg" alt="Logo" height="40" width="40" >
+                        </div>
+                    </a>
+                    <br>
+                    <a href="https://www.instagram.com/maravillas.secretlodge/" target="_blank">
+                        <div class="instagram">
+                                <img src="../assets/svg/ig.svg" alt="Logo" height="40" width="40" >
+                        </div>
+                    </a>    
                 </div>
         </div>
         <div class="bottom">
