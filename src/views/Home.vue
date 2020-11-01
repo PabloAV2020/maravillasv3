@@ -30,16 +30,20 @@
       </div>
       <div class="row">
         <div class="column">
-          <img src="../assets/img/camping.png" alt="Snow" style="width:100%">
+          <img src="../assets/img/camping.png" alt="Camping" style="width:70%">
+          <p>Camping y Cabañas</p>
         </div>
         <div class="column">
-          <img src="../assets/img/birdwatching.png" alt="Forest" style="width:100%">
+          <img src="../assets/img/birdwatching.png" alt="Bird" style="width:70%">
+          <p>Birdwatching</p>
         </div>
         <div class="column">
-          <img src="../assets/img/fishing.png" alt="Mountains" style="width:100%">
+          <img src="../assets/img/fishing.png" alt="Pesca deportido" style="width:70%">
+          <p>Pesca de río</p>
         </div>
         <div class="column">
-          <img src="../assets/img/gastronomy.png" alt="Mountains" style="width:100%">
+          <img src="../assets/img/gastronomy.png" alt="Gastronomía" style="width:70%">
+          <p>Gastronomía campestre</p>
         </div>
       </div>
       <div class="invitation">
@@ -51,18 +55,24 @@
       <div class="adventure">
           <h1>La Experiencia de nuestros visitantes!</h1>
           <br>
-      <div class="row">
-        <div class="column">
-          <img src="../assets/img/camping.png" alt="Snow" style="width:100%">
+      <div class="row-guests">
+        <div class="column-guests">
+          <img class="circular--square" src="../assets/img/cony.png" alt="Cony" >
+          <br>
+          <h1> Cony </h1>
+          <p>"Mas fin de semanas como este por favor"</p>
         </div>
-        <div class="column">
-          <img src="../assets/img/birdwatching.png" alt="Forest" style="width:100%">
+        <div class="column-guests">
+          <img class="circular--square"  src="../assets/img/claudio.png" alt="Claudio" >
+          <br>
+          <h1> Claudio </h1>
+          <p>"Excelente lugar para sacar salmones y truchas, volvería todos los años"</p>
         </div>
-        <div class="column">
-          <img src="../assets/img/fishing.png" alt="Mountains" style="width:100%">
-        </div>
-        <div class="column">
-          <img src="../assets/img/gastronomy.png" alt="Mountains" style="width:100%">
+        <div class="column-guests">
+          <img class="circular--square" src="../assets/img/karina.png" alt="Karina" >
+          <br>
+          <h1> Karina </h1>
+          <p>"Que buena experiencia disfrutar en familia de estos paisajes y de su linda gente"</p>
         </div>
       </div>
       <div class="w-button">
@@ -175,6 +185,20 @@ export default {
   padding: 5px;
 }
 
+.row-guests {
+  display: flex;
+  margin:50px;
+}
+.column-guests{
+  flex: 33%;
+  padding: 5px;
+}
+
+.circular--square {
+  border-radius: 50%;
+  width:50%;
+}
+
 .invitation {
 
   text-align:left;
@@ -184,5 +208,18 @@ export default {
 
 }
 
+.column-guests h1{
+
+  font-size:16px;
+  text-align:center;
+
+}
+
+.column-guests p{
+
+  font-size:14px;
+  text-align:center;
+
+}
 
 </style>
