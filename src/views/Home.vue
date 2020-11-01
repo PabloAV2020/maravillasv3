@@ -12,7 +12,7 @@
           <h1>Bienvenido a nuestra página oficial !</h1>
           <p> Con su excepcional belleza natural, la Patagonia siempre a atraido a amantes de la naturaleza de todo el mundo,
             un lugar donde poder ser testigos de las enormes fuerzas que gobiernan el mundo. Te queremos invitar a la Región de Aysén 
-            en la Patagonia chilena.  </p>
+            en la Patagonia chilena, para encontrar las aventuras que siempre soñaste.  </p>
           <br>
         </div>
         <div class="div-2">
@@ -27,6 +27,17 @@
             entre muchos otros lugares hermosos y desconocidos.  </p>
           <br>
 
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="img_snow.jpg" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="img_forest.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+        </div>
       </div>
       
   </div>
@@ -86,7 +97,6 @@ export default {
 
 .div2 {
   border-left:800px;
-  margin-bottom:50px;
   float:right;
 }
 
@@ -108,7 +118,7 @@ export default {
 .adventure{
 
   margin:50px;
-
+  
 }
 
 .adventure h1{
