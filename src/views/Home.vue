@@ -4,7 +4,7 @@
         <img src="../assets/img/welcome.png" alt="Bienvenido" style="width:100%;">
         <div class="centered">
           <h1>Bienvenido a <br>
-          Las Maravillas Secret Lodge</h1>
+          Las Maravillas Secret Lodge Patagonia</h1>
         </div>
       </div>
       <div class="welcome">
@@ -50,7 +50,9 @@
         <p> Te invitamos a ponerte en contacto con nosotros a través de Whatsapp en el siguiente enlace </p>
       </div>
       <div class="w-button">
-        <p> Aquí va un botón de whatsapp </p>
+
+        <a href="https://wa.me/56974202473" target="_blank"><img src="../assets/img/wsbutton.png" width="180px"></a>
+
       </div>      
       <div class="adventure">
           <h1>La Experiencia de nuestros visitantes!</h1>
@@ -76,8 +78,8 @@
         </div>
       </div>
       <div class="w-button">
-        <p> Aquí va un botón de whatsapp </p>
-      </div>   
+        <a href="https://wa.me/56974202473" target="_blank"><img src="../assets/img/wsbutton.png" width="180px"></a>
+      </div>    
       </div>
   </div>
     
@@ -91,7 +93,10 @@ export default {
   name: "Home"
 };
 
-
+function sendWa(){
+    var message = document.getElementById("message").value
+    location.href = "https://wa.me/56974202473?text=" + message
+}
 
 </script>
 
@@ -121,7 +126,7 @@ export default {
   border-radius: 25px;
   padding: 20px;
   width: 400px;
-  height: 75px;
+  height: 100px;
 
 }
 
