@@ -50,7 +50,7 @@ export default {
   color: white;
   font-weight: bold;
   cursor: pointer;
-  padding: 10px;
+
   width: fit-content;
   list-style-type: none;
   

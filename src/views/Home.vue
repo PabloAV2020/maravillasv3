@@ -1,32 +1,38 @@
 <template>
   <div>
-    <div class="responsive">
-        <img src="../assets/img/2.png" alt="Banner" >
-    </div>
-
-<div class="bienvenida">
-    <h2>
-      ! Bienvenido a nuestra página oficial !
-      </h2>
-    <h3>
-        Somos un lodge ecoturístico hubicado en Villa Mañihuales, Región de Aysén. 
-        ¡Fundado en el año 2020!
-        
-        Te ofrecemos los siguientes servicios:
-        - Camping
-        - Ducha Caliente
-        - Cafetería
-        - Cocina Campera
-        - Arriendo de Cabaña por día
-        - Rutas de pesca deportiva y fly fishing
-        - Caminatas de observación de aves (Birdwatching)
-        - Paseos en Kayak en el río Mañihuales
-        - ¡Reparación de bicicletas y mucho más!
-        Ideal si disfrutas de la naturaleza y los deportes al aire libre.
-        Quedamos a tu disposición para reservar durante todo el año.
-        maravillas.camping@gmail.com
-    </h3>
+      <div class="container">
+        <img src="../assets/img/welcome.png" alt="Bienvenido" style="width:100%;">
+        <div class="centered">
+          <h1>Bienvenido a <br>
+          Las Maravillas Secret Lodge</h1>
+        </div>
       </div>
+      <div class="welcome">
+        <div class="div1">
+          <h1>Bienvenido a nuestra página oficial !</h1>
+          <p> Con su excepcional belleza natural, la Patagonia siempre a atraido a amantes de la naturaleza de todo el mundo,
+            un lugar donde poder ser testigos de las enormes fuerzas que gobiernan el mundo. Te queremos invitar a la Región de Aysén 
+            en la Patagonia chilena.  </p>
+          <br>
+        </div>
+        <div class="div-2">
+          Aquí va el reporte del clima
+        </div>
+      </div>
+      <div class="adventure">
+          <h1>Elije tu próxima aventura!</h1>
+          <p> Desde nuestro Lodge puedes acceder a lugares únicos, donde podrás realizar distintas actividades como 
+            pesca deportiva, senderismo, avistamiento de aves, natación, escalada, entre otros. Además podrás escoger otros 
+            destinos de la región hacia donde dirigirte con comodida como las Cavernas de Marmol, Parque Nacional Queulat, 
+            entre muchos otros lugares hermosos y desconocidos.  </p>
+          <br>
+
+      </div>
+      
+  </div>
+    
+    
+
   </div>
 </template>
 
@@ -38,23 +44,83 @@ export default {
 
 <style scoped>
 
-.responsive img{
-  margin-top: 5px;
-  width: 100%;
-  height: auto;
-  border: 2px solid black;
+
+.container {
+  position: relative;
+  text-align: center;
 }
 
-.bienvenida h2{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12pt;
-  font-weight: bold;
-  color:#DCDCDC
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 
-.bienvenida h3{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 10pt;
-  color:#DCDCDC
+.centered h1 {
+
+  font-size: 26px;
+  color:#25221e;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  padding: 20px;
+  width: 400px;
+  height: 75px;
+
 }
+
+.welcome {
+  margin:50px;
+  margin-bottom:240px;
+}
+
+
+.div1 {
+  float:left;
+  width:800px;
+
+}
+
+.div2 {
+  border-left:800px;
+  margin-bottom:50px;
+  float:right;
+}
+
+.div1 h1 {
+  font-size: 20px;
+  color: #262626;
+  text-align: left;
+}
+
+
+.div1 p {
+  font-size: 16px;
+  color: #262626;
+  text-align: justify;
+
+}
+
+
+.adventure{
+
+  margin:50px;
+
+}
+
+.adventure h1{
+  font-size: 20px;
+  color: #262626;
+  text-align: left;
+}
+
+.adventure p{
+  font-size: 16px;
+  color: #262626;
+  text-align: justify;
+}
+
 </style>
