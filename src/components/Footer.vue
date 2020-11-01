@@ -3,7 +3,7 @@
         <div class="top">
                 <div>
                     <h1>¿QUIERES VISITARNOS?</h1>
-                    <p>Te damos nuestra información de contacto</p>
+                    <p>Aquí puedes contactarnos.</p>
                     <p style="font-size:14px; color:#dd9f0d;"> Whatsapp:</p><p> +56 9 974202473</p>
                     <p style="font-size:14px; color:#dd9f0d;">Email: </p><p>maravillas.camping@gmail.com</p>
                 </div>

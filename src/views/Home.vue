@@ -42,7 +42,33 @@
           <img src="../assets/img/gastronomy.png" alt="Mountains" style="width:100%">
         </div>
       </div>
-      
+      <div class="invitation">
+        <p> Te invitamos a ponerte en contacto con nosotros a través de Whatsapp en el siguiente enlace </p>
+      </div>
+      <div class="w-button">
+        <p> Aquí va un botón de whatsapp </p>
+      </div>      
+      <div class="adventure">
+          <h1>La Experiencia de nuestros visitantes!</h1>
+          <br>
+      <div class="row">
+        <div class="column">
+          <img src="../assets/img/camping.png" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="../assets/img/birdwatching.png" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="../assets/img/fishing.png" alt="Mountains" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="../assets/img/gastronomy.png" alt="Mountains" style="width:100%">
+        </div>
+      </div>
+      <div class="w-button">
+        <p> Aquí va un botón de whatsapp </p>
+      </div>   
+      </div>
   </div>
     
     
@@ -149,7 +175,14 @@ export default {
   padding: 5px;
 }
 
+.invitation {
 
+  text-align:left;
+  margin:50px;
+  font-size: 16px;
+  color: #262626;
+
+}
 
 
 </style>
