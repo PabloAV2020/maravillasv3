@@ -47,7 +47,7 @@
         </div>
       </div>
       <div class="invitation">
-        <p> Te invitamos a ponerte en contacto con nosotros a través de Whatsapp en el siguiente enlace </p>
+        <p> Te invitamos a ponerte en contacto con nosotros a través de Whatsapp en el siguiente enlace para programar tu visita: </p>
       </div>
       <div class="w-button">
 
